@@ -52,7 +52,7 @@ print(cv.res$dt[min_auc_idx,])
 
 # get CV's prediction decoding
 prediction <- as.numeric(cv.res$pred>0.5)
-
+print ("XGBOOST CLASSIFIER")
 print(confusionMatrix(factor(new_train_label),factor(prediction)))
 
 bst <- xgboost(data = train_x , label = train_y, max.depth = 10, verbose = FALSE,
