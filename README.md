@@ -10,4 +10,4 @@ After you get the review dataset:
 
 Note : Extreme gradient boosting classifier code is also included, using the XG_Boost_Classifier.r you can use xg_boost classifier.
 
-MY model acheived an accuracy of 78.59% in classifing the helpful and unhelpful reviews on Amazon dataset
+My model acheived an accuracy of 78.59% in classifying the helpful and unhelpful reviews using the Amazon Dataset.
