@@ -9,3 +9,5 @@ After you get the review dataset:
 3. Finally run the Classifier.py which takes the Text_Features.csv generated in step-2 to perform the classification using Random Forest and Gradient Boosting classifers.
 
 Note : Extreme gradient boosting classifier code is also included, using the XG_Boost_Classifier.r you can use xg_boost classifier.
+
+MY model acheived an accuracy of 78.59% in classifing the helpful and unhelpful reviews on Amazon dataset
